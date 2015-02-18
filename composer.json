@@ -1,0 +1,23 @@
+{
+    "name": "fury/framework",
+    "description": "Basic classes used in Zfury (CMF based on Zend Framework 2)",
+    "license": "MIT",
+    "keywords": [
+        "framework",
+        "zf2",
+        "ZFury"
+    ],
+    "homepage": "http://framework.zend.com/",
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zendframework": "2.3.3",
+        "doctrine/common": "2.4.*",
+        "doctrine/doctrine-orm-module": "0.8.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "library/"
+        }
+    }
+}
+
