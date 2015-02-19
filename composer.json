@@ -15,7 +15,7 @@
         "doctrine/doctrine-orm-module": "0.8.*"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Fury\\": "library/"
         }
     }
