@@ -1,5 +1,5 @@
 {
-    "name": "fury/framework",
+    "name": "zfury/framework",
     "description": "Basic classes used in Zfury (CMF based on Zend Framework 2)",
     "license": "MIT",
     "keywords": [
