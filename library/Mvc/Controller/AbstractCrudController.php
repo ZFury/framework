@@ -72,6 +72,8 @@ abstract class AbstractCrudController extends AbstractActionController
                     return $this->redirect()->toRoute(null, ['controller' => $controller]);
                 }
                 return;
+            } else {
+                $this->getResponse()->setStatusCode(400);
             }
         }
         $viewModel = $this->getViewModel();
@@ -107,7 +109,6 @@ abstract class AbstractCrudController extends AbstractActionController
                 return;
             } else {
                 $this->getResponse()->setStatusCode(400);
-                return;
             }
         }
         $viewModel = $this->getViewModel();
